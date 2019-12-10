@@ -33,8 +33,9 @@
         "headline": "Shining chrome",
         "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
         "callToActionMode": "Go to Collection",
-        "callToActionText": "Explore",
-        "callToActionUrl": "/sale/d"
+        "callToActionText": "Go To Collection",
+        "callToActionUrl": "/sale/d",
+        "textAlignment": "center"
       }
     }
   }
