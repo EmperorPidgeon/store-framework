@@ -1,23 +1,26 @@
 {
     "store.custom#landing": { 
       "blocks": [
-        "image", 
+        "image#landing", 
         "search-result-layout.customQuery"
       ]
     },
-    "image":{
+    "image#landing":{
         "props":{
             "minWidth": "100%",
-            "src": "https://images4.alphacoders.com/101/thumb-1920-1019228.jpg"
+            "src": "https://las.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/saleannouncebanner_september2018.modified.en_.jpg?itok=7L7y8uRb"
         }
     },
     "search-result-layout.customQuery":{
         "props":{
-            "orderByField": "OrderByReleaseDateDESC",
-            "hideUnavailableItems": true,
-            "maxItemsPerPage": 8,
-            "queryField": "Blue Top Retro Camera",
-            "mapField": "ft"
-        }
+            "querySchema":{
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        },
+        "blocks":["search-result-layout.desktop","search-result-layout.mobile","search-not-found-layout"]
     }
   }
