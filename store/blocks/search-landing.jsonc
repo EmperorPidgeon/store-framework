@@ -1,13 +1,13 @@
 {
     "store.custom#landing": { 
       "blocks": [
-        "image#landingbanner", 
+        "image", 
         "search-result-layout.customQuery"
       ]
     },
-    "image#landingbanner":{
+    "image":{
         "props":{
-            "width": "100%",
+            "minWidth": "100%",
             "src": "https://images4.alphacoders.com/101/thumb-1920-1019228.jpg"
         }
     },
