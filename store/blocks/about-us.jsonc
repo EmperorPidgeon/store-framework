@@ -101,7 +101,7 @@
  },
  "iframe": {
     "props": {
-      "src": "hvttps://www.instagram.com/p/B37Zfd6FobU/embed",
+      "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
       "width": 800,
       "height": 1000
     }
